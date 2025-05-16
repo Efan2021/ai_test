@@ -28,8 +28,8 @@ jobs:
         uses: docker/login-action@v3
         with:
           registry: ${{ env.REGISTRY }}
-          username: ${{ secrets.ALIYUN_REGISTRY_USERNAME }}
-          password: ${{ secrets.ALIYUN_REGISTRY_PASSWORD }}
+          username: ${{ secrets.HUAWEIYUN_USERNAME }}
+          password: ${{ secrets.HUAWEIYUN_PASSWORD }}
 
       # 获取 Git 标签（将标签赋值给环境变量）
       - name: Get Git tag
