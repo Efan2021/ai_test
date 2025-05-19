@@ -1,3 +1,5 @@
 FROM centos:7
-RUN yum -y install vim
-RUN mkdir app 
+RUN yum update -y && \
+    yum install -y vim && \
+    yum clean all
+RUN mkdir app
