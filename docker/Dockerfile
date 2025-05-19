@@ -1,3 +1,3 @@
 FROM centos:7
-RUN /bin/sh -c yum -y install vim utils 
+RUN yum -y install vim
 RUN mkdir app 
