@@ -1,3 +1,3 @@
-FROM centos:stream9
+FROM centos:7
 RUN /bin/sh -c yum -y install vim utils 
 RUN mkdir app 
